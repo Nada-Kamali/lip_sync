@@ -8,7 +8,7 @@ def generate_sadtalker_video(image_path, audio_path, eyeblink_path, result_path,
         "poetry", "run", "python", "SadTalker/inference.py",
         "--driven_audio", audio_path,
         "--source_image", image_path,
-        # "--ref_eyeblink", eyeblink_path,
+        # "--ref_eyeblink", eyeblink_path,  # Uncomment this line to use eye blinking from a reference video
         "--checkpoint_dir", "./SadTalker/checkpoints",
         "--result_dir", result_path,
         "--still",
@@ -25,5 +25,5 @@ if __name__ == "__main__":
     image = "./SadTalker/examples/source_image/happy1.png"
     audio = "./SadTalker/examples/driven_audio/fayu.wav"
     eyeblink= "./SadTalker/examples/ref_video/WDA_AlexandriaOcasioCortez_000.mp4"
-    result = "./SadTalker/results"
+    result = "./SadTalker/examples/results"
     generate_sadtalker_video(image, audio, eyeblink, result)

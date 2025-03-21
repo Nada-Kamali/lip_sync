@@ -66,6 +66,7 @@ Thumbs.db
 
 SadTalker/results/*
 SadTalker/examples/results/*
+lip_sync/results/*
 results/*
 gfpgan/*
 checkpoints/*

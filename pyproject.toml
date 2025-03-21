@@ -31,6 +31,7 @@ basicsr-fixed = "^1.4.2"
 torch = "^2.6.0"
 torchvision = "^0.21.0"
 torchaudio = "^2.6.0"
+ffmpeg = "^1.4"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
