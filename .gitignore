@@ -1,0 +1,73 @@
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+poetry.lock
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Poetry virtual environment cache
+.cache/
+.pypoetry/
+poetry.lock
+
+# Cython debug symbols
+cython_debug/
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+SadTalker/results/*
+SadTalker/examples/results/*
+results/*
+gfpgan/*
+checkpoints/*
+SadTalker/gfpgan/*
+SadTalker/checkpoints/*
