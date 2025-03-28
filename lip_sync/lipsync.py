@@ -11,6 +11,7 @@ def generate_sadtalker_video(image_path, audio_path, eyeblink_path, result_path,
         # "--ref_eyeblink", eyeblink_path,  # Uncomment this line to use eye blinking from a reference video
         "--checkpoint_dir", "./SadTalker/checkpoints",
         "--result_dir", result_path,
+        "--batch_size", "8",
         "--still",
         "--preprocess", "full",
         "--enhancer", "gfpgan" 
